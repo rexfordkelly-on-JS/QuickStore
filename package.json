@@ -1,0 +1,8 @@
+{
+  "name": "QuickStore",
+  "version": "0.0.1",
+  "description": "A Simple JSON storage Utility",
+  "main": "QuickStore.js",
+  "author": "rexfordkelly@gmail.com",
+  "license": ""
+}

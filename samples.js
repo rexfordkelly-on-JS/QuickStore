@@ -1,15 +1,13 @@
 /*
-  You don't even need to use this module to load the results, 
-  just require it and Node will take care of the JSON parsing
-  on it's own... very quick.
+  You don't even need to use this module to load the existing
+  stored data, just require it and Node will take care of the 
+  JSON parsing on it's own... very quick.
 */
 // var messages = require('./data/messages.json');
   
 /*
   It's also pretty simple to setup and access any number of 
-  QuickStores. 
-*/
-    
+  QuickStores. */
 // var QuickStore = require('./QuickStore.js');    
 // var SDIR = __dirname + '/data';
 
@@ -19,7 +17,7 @@
 */
 
 // var m = QuickStore( SDIR + '/messages.json');
-// for( var i=0; i < 1000; i++){
+// for( var i=0; i < 100000; i++){
 // 	m.set('obj_'+i, {id: i});
 // }
 // m.save();
